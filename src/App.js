@@ -4,7 +4,7 @@ import './App.css';
 
 
 
-function Welcome(){
+function App(){
   const[users,setUsers]=useState([]);
   const[loading, settLoading]=useState(true);
   useEffect(()=>{
@@ -45,5 +45,6 @@ function Welcome(){
   )
 
 }
+export default App;
 
 
